@@ -20,6 +20,3 @@ model.fit(x_train, y_train)
 y_perd= model.predict(x_test)
 from sklearn.metrics import accuracy_score
 accuracy_score(y_test,y_perd)
-import joblib
-
-joblib.dump(svc, 'svc_model.joblib')
