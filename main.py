@@ -1,6 +1,5 @@
 
 import pandas as pd
-
 parkinsons_df = pd.read_csv('parkinsons.csv')
 parkinsons_df= parkinsons_df.dropna()
 parkinsons_df.head()
